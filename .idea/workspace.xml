@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d757c34-4066-4b1c-9ef0-be710b1a77a8" name="Changes" comment="First commit" />
+    <list default="true" id="6d757c34-4066-4b1c-9ef0-be710b1a77a8" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +17,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2A6W4LbGwZcS5o3FWrzgwjamgtg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,7 +39,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neu.ces.App" />
+      <module name="Single-node-single-partition-lab-Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neu.ces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="Single-node-single-partition-lab-Maven" />
@@ -46,6 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -60,6 +83,7 @@
       <updated>1654330323703</updated>
       <workItem from="1654330324905" duration="690000" />
       <workItem from="1654331025775" duration="7000" />
+      <workItem from="1654331112362" duration="221000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1654330818897</created>

@@ -1,4 +1,4 @@
-package org.example;
+package com.neu.ces;
 
 import static org.junit.Assert.assertTrue;
 
