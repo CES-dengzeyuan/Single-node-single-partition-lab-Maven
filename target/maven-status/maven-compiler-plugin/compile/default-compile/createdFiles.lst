@@ -1,3 +1,5 @@
 com/neu/ces/FixSQL.class
 com/neu/ces/ExecuteSQL.class
+com/neu/ces/FetchSQL.class
+com/neu/ces/AllInOne.class
 com/neu/ces/ExecuteSQL$MyRunnable.class

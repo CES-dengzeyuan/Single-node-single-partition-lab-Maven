@@ -67,7 +67,7 @@ public class ExecuteSQL {
         }
     }
 
-    public static void main(String[] args) {
+    public static void executeSQL() {
         try {
             String url = "jdbc:postgresql://localhost:5432/benchbase?sslmode=disable&ApplicationName=ycsb&reWriteBatchedInserts=true";
             String user = "postgres";
