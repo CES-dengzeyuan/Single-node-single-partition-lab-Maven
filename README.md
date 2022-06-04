@@ -1,0 +1,1 @@
+# Single-node-single-partition-lab-Maven
