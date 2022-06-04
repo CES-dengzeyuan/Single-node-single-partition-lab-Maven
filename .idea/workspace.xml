@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d757c34-4066-4b1c-9ef0-be710b1a77a8" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neu/ces/FetchSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single-node-single-partition-lab-Maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Single-node-single-partition-lab-Maven.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neu/ces/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neu/ces/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neu/ces/ExecuteSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neu/ces/ExecuteSQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neu/ces/FixSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neu/ces/FixSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neu/ces/AllInOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neu/ces/AllInOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neu/ces/FetchSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neu/ces/FetchSQL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Single-node-single-partition-lab-Maven-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Single-node-single-partition-lab-Maven-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neu/ces/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neu/ces/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neu/ces/FixSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neu/ces/FixSQL.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.neu.ces.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.neu.ces.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.neu.ces.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.neu.ces.AppTest.txt" afterDir="false" />
     </list>
@@ -36,13 +32,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2A6W4LbGwZcS5o3FWrzgwjamgtg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,13 +47,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -78,6 +69,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,16 +107,11 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.Single-node-single-partition-lab-Maven [install]" />
       <item itemvalue="Application.FetchSQL" />
+      <item itemvalue="Maven.Single-node-single-partition-lab-Maven [install]" />
     </list>
     <recent_temporary>
       <list>
@@ -134,6 +131,7 @@
       <workItem from="1654331025775" duration="7000" />
       <workItem from="1654331112362" duration="6830000" />
       <workItem from="1654351246614" duration="1197000" />
+      <workItem from="1654358170359" duration="3237000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1654330818897</created>
@@ -158,6 +156,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

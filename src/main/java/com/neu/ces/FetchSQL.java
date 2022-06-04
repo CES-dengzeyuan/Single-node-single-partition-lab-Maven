@@ -4,12 +4,13 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class FetchSQL {
-    public static void fetchSQL(String jarfile, String protocol, String confile) {
+    public static void fetchSQL(String jarfile, String protocol) {
         try {
-            String jarFile = "benchbase.jar";
-            String Protocol = "tpcc";
-            String conFile = "config/postgres/sample_" + Protocol + "_config.xml";
-            String cmd = "java -jar " + jarFile + " -b " + Protocol + " -c " + conFile + " --create=true --load=true --execute=true";
+//            String jarFile = "benchbase.jar";
+//            String Protocol = "tpcc";
+//            String conFile = "config/postgres/sample_" + Protocol + "_config.xml";
+            String conFile = "config/postgres/sample_" + protocol + "_config.xml";
+            String cmd = "java -jar " + jarfile + " -b " + protocol + " -c " + conFile + " --create=true --load=true --execute=true";
             Process ps = Runtime.getRuntime().exec(cmd);
             System.out.println(cmd);
             BufferedReader br = new BufferedReader(new InputStreamReader(ps.getInputStream()));

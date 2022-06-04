@@ -1,11 +1,8 @@
 package com.neu.ces;
 
-/**
- * Hello world!
- */
 public class AllInOne {
     public static void main(String[] args) {
-        FetchSQL.fetchSQL("a", "b", "c");
+        FetchSQL.fetchSQL("a", "b");
         FixSQL.fixSQL();
         ExecuteSQL.executeSQL();
     }
