@@ -25,9 +25,8 @@ public class FixSQL {
             System.out.println("Worker is not found!");
             return null;
         }
-        String lsql = Files.readString(Paths.get(workerFile));
-        String[] sql = lsql.replace("EOL", ";\n").split("EOF");
-        System.out.println(Arrays.toString(sql));
-        return sql;
+        String sql = Files.readString(Paths.get(workerFile));
+        String[] wsql = sql.replace("EOL", ";\n").split("EOF");
+        return wsql;
     }
 }
