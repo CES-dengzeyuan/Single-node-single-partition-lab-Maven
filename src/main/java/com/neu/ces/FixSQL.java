@@ -7,6 +7,16 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 
 public class FixSQL {
+    public static String fixLoadByName(String filename) throws IOException {
+        File loadfile = new File(filename);
+        if (!loadfile.exists()) {
+            System.out.println(filename + " is not found!");
+            return null;
+        }
+        String lsql = Files.readString(Paths.get(filename));
+        return lsql.replace("EOL", ";\n");
+    }
+
     public static String fixLoadSQL(String protocol) throws IOException {
         String loaderFile = protocol + "Loader.sql";
         File loadfile = new File(loaderFile);
@@ -26,7 +36,6 @@ public class FixSQL {
             return null;
         }
         String sql = Files.readString(Paths.get(workerFile));
-        String[] wsql = sql.replace("EOL", ";\n").split("EOF");
-        return wsql;
+        return sql.replace("EOL", ";\n").split("EOF");
     }
 }
